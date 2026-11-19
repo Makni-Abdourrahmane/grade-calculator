@@ -1,3 +1,7 @@
-"""Grade calculator."""
+"""Grade calculator: average."""
 
 PASS_MARK = 10
+
+
+def average(grades):
+    return sum(grades) / len(grades)
