@@ -10,7 +10,7 @@ def average(grades):
 
 
 def has_passed(grade):
-    return grade > PASS_MARK
+    return grade >= PASS_MARK
 
 
 def best(grades):
