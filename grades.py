@@ -19,3 +19,7 @@ def best(grades):
 
 def worst(grades):
     return min(grades)
+
+
+def count(grades):
+    return len(grades)
