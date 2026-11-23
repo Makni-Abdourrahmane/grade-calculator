@@ -15,3 +15,7 @@ def has_passed(grade):
 
 def best(grades):
     return max(grades)
+
+
+def worst(grades):
+    return min(grades)
